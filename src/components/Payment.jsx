@@ -11,7 +11,7 @@ function Payment() {
     e.preventDefault();
     alert("Payment submitted (fake). Redirecting...");
     clearCart();
-    navigate("/success");
+    navigate("/Success");
   };
 
   const total = cartItems.reduce(
