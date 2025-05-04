@@ -6,7 +6,7 @@ import App from "./App.jsx";
 import Shop from "./components/Shop.jsx";
 import Checkout from "./components/Checkout.jsx";
 import Payment from "./components/Payment.jsx";
-import Success from "./components/success.jsx";
+import Success from "./components/Success.jsx";
 import { CartProvider } from "./context/CartContext";
 
 const router = createBrowserRouter([
